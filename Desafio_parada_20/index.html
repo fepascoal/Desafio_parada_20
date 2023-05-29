@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Média Escolar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/media.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <div class="title">Média Escolar</div>
+                <div class="input">
+                    <label>Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+
+                <div class="input">
+                    <label>Primeira Nota:</label>
+                    <input type="number" id="n1">
+                </div>
+
+                <div class="input">
+                    <label>Segunda Nota:</label>
+                    <input type="number" id="n2">
+                </div>
+                
+                <div class="input">
+                    <label>Terceira Nota:</label>
+                    <input type="number" id="n3">
+                </div>
+                
+    
+                <button onclick="gera_media()" id="btt">Gerar Média</button>
+                <button onclick="limpar()" id="btt">Limpar</button>
+    
+                <div id="resp"></div>     
+            </div>
+        </main>
+    </body>
+
+</html>
